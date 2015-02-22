@@ -14,5 +14,7 @@ function wootwoot(data) {
 	var info = data.items
 	for(var i = 0; i < info.length; i++) {
 		$('#dashboard').append(info[i].title)
+		$('#dashboard').append(info[i].author)
+		$('#dashboard').append('<img src=' + info[i].media.m + '/>')
 	}
 }
