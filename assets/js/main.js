@@ -15,7 +15,6 @@ $.ajax({
 setTimeout(apiCall, 10000)
 }
 
-
 function wootwoot(data) {
 	var info = data.items
 	$('#dashboard').empty()
